@@ -4,7 +4,7 @@
   "description": "Brace expansion for search engine keywords",
   "main": "index.js",
   "bin": {
-    "brace-expansion": "cli.js"
+    "keyword-expansion": "cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
