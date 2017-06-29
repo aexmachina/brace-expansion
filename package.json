@@ -1,6 +1,6 @@
 {
   "name": "keyword-expansion",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Brace expansion for search engine keywords",
   "main": "index.js",
   "bin": {
