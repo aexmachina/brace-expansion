@@ -8,8 +8,6 @@ Can be used either as a CLI or as a Node.js module.
 ```bash
 npm install -g keyword-expansion
 echo '{android,ios} {,app} development {,company}' | keyword-expansion
-# Perform
-# cat keywords.txt | keyword-expansion
 ```
 
 Outputs:
@@ -23,6 +21,12 @@ ios development
 ios development company
 ios app development
 ios app development company
+```
+
+Typically you'll put the list of keywords into a file and pipe that into the CLI:
+
+```bash
+cat keywords.txt | keyword-expansion
 ```
 
 The input can include multiple lines (obvs).
