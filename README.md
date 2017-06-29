@@ -6,8 +6,10 @@ Can be used either as a CLI or as a Node.js module.
 ## CLI Usage
 
 ```bash
-npm install -g brace-expansion
-echo '{android,ios} {,app} development {,company}' | brace-expansion
+npm install -g keyword-expansion
+echo '{android,ios} {,app} development {,company}' | keyword-expansion
+# Perform
+# cat keywords.txt | keyword-expansion
 ```
 
 Outputs:
