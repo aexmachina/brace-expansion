@@ -1,0 +1,20 @@
+{
+  "name": "keyword-expansion",
+  "version": "1.0.0",
+  "description": "Brace expansion for search engine keywords",
+  "main": "index.js",
+  "bin": {
+    "brace-expansion": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  ],
+  "author": "@aexmachina",
+  "license": "MIT",
+  "dependencies": {
+    "brace-expansion": "^1.1.8",
+    "get-stdin": "^5.0.1"
+  }
+}
